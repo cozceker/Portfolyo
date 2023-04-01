@@ -1,0 +1,180 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+
+
+  .main_container
+{   display: flex;
+    font-family: 'Josefin Sans', sans-serif;}
+
+.navbar
+{   background: inherit;
+    position: sticky;
+    top: 0;}
+
+.navbar ul
+{   display: flex;
+    justify-content: space-around;}
+
+@media screen and (max-width: 1250px)
+{.navbar ul {flex-direction: column;}
+}
+
+
+
+.navbar ul li
+{   list-style: none;
+    margin-top: 1.5rem;
+    list-style: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 2rem 0rem 0rem 0rem;
+    font-size: 1.3rem;
+}
+
+.navbar ul li a
+{   text-decoration: none;
+    color: azure;
+    font-size: larger;
+    transition: 1s;
+    scroll-behavior: smooth;
+}
+
+.navbar ul li a:hover
+{   text-decoration:none;
+    color: whitesmoke;
+    font-size: xx-large;
+    transition: 2s;
+}
+
+.sol_container
+{   display: block;
+    background-color: slategray;
+    width: 40%;
+    background-image: linear-gradient(88deg, black, transparent);
+}
+
+.sag_container
+{   display: block;
+    background-color: gainsboro;
+    width: 60%;
+    text-align: center;}
+
+.image
+{   position: sticky;
+    top: 60px;}
+
+    @media screen and (max-width: 1250px)
+    {.image {top: 230px;}   
+    }
+
+.image img
+{   width: -webkit-fill-available;
+    margin: 13rem 5rem 5rem 5rem;
+    border-radius: 70px;
+    transition: 8s;    
+}
+
+.image img:hover
+{   border-radius: 200px;
+
+    transition: 4s;
+}
+
+h1,h2,h3
+{   font-weight: bolder;
+    text-align: center;}
+p
+{line-height:30px;}
+
+h1
+{   font-size: 3rem;
+    margin-top: 12rem;}
+
+.Uzmyazi
+{   font-size: 2rem;}
+
+#bolum1
+{   height: 100px; }
+
+#bolum2
+{   height: 200px; }
+
+#bolum3
+{   height: 300px; }
+
+.basliklar, ul li
+{   justify-content: center;
+    font-size: 1.5rem;
+    margin: 20px;}
+
+.icerikler
+{   width: 74%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 10px;}
+
+.icerikler p
+{   font-size: 1.5rem;}
+
+.iletisim
+{   font-size: 25px;
+    padding-left: 5px;}
+
+.sosyal
+{   height: 350px;}
+
+.sosyal, .sosyal a img
+{  text-align: center;}
+
+.sosyal a img
+{   width: 5%;
+    margin-left: 10px;}
+
+tr
+{   height: 2rem;
+    font-size: 1.5rem;}
+
+.firma
+{   font-weight: bold;
+    text-align: center;}
+
+h3::before {
+
+    position: relative;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    display: inline-block;
+    bottom: 5px;
+    margin-right: 2rem;
+}
+
+h3::after {
+
+    position: relative;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    display: inline-block;
+    bottom: 5px;
+    margin-left: 2rem;
+}
+
+.deneyim img
+{   width: 6rem;
+}
+
+html 
+{scroll-behavior: smooth;}
+
+
+
+
+
+
+
+
